@@ -245,7 +245,7 @@ class AppProvider extends ChangeNotifier {
       ),
     ];
     // Demo user
-    _user = const UserModel(name: 'Alex', xp: 320, streak: 3, totalFocusMinutes: 150, badges: ['first_session', 'note_taker']);
+    _user = const UserModel(name: 'Alex', xp: 0, streak: 0, totalFocusMinutes: 0, badges: []);
     await _saveAll();
   }
 
