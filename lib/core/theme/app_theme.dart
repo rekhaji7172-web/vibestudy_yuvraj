@@ -82,7 +82,7 @@ class AppTheme {
         ),
         iconTheme: IconThemeData(color: AppColors.textPrimary),
       ),
-      cardTheme: CardThemeData(
+      cardTheme: CardTheme(
         color: AppColors.cardSurface,
         elevation: 0,
         shape: RoundedRectangleBorder(
