@@ -1,0 +1,74 @@
+Ye steps btaye hai chatgpt ne help karo na meri karne mein Badhiya, ab baaki steps:
+
+1. .gitignore file banao
+
+GitHub pe repo khulne ke baad URL ke end mein /new/master add karo
+
+Filename: .gitignore
+
+Pichle message wala content paste karo
+
+"Commit changes" dabao
+
+
+2. Codemagic kholo
+
+Apni app (vibestudy_yuvraj) pe jao → gear/Settings icon → Distribution tab → Android code signing
+
+
+3. Keystore upload karo
+
+"Upload keystore file" pe maine diya wala vibestudy-release.jks select karo
+
+
+4. Passwords daalo (exactly copy karo)
+
+Keystore password: XaBweodq2WnTbYEOe2oM
+
+Key alias: vibestudy
+
+Key password: ftBoc8iok7nOZdlCUCem
+
+
+5. Toggle ON karo
+
+"Enable Android code signing" switch ON karo
+
+Save/Apply button dabao
+
+
+6. Naya build chalao
+
+App ke main page pe "Start new build" dabao
+
+Build complete hone ka wait karo
+
+
+Build complete hone pe screenshot bhej dena, check kar lunga sab sahi gaya ya nahi.
+
+
+Kya mena sahi fike bna Li hai ? 
+And kya ab mein ye code paste kar du jo ai ne diya tha yha karne ke liye 
+# Signing files — NEVER commit these to a public repo
+android/key.properties
+*.jks
+*.keystore
+
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/.cxx/
+
+# IDE
+.idea/
+*.iml
+.vscode/
